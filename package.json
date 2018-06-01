@@ -1,6 +1,6 @@
 {
   "name": "react-redux-tools",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Tools and commands that help build react and redux apps",
   "main": "index.js",
   "scripts": {
@@ -23,6 +23,9 @@
   ],
   "author": "Adam Yoder",
   "license": "ISC",
+  "bin":{
+      "react-component":"./index.js"
+  },
   "bugs": {
     "url": "https://github.com/braintwyster/react-redux-tools/issues"
   },
