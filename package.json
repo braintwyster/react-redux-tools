@@ -1,33 +1,49 @@
 {
-  "name": "react-redux-tools",
-  "version": "0.0.1",
-  "description": "Tools and commands that help build react and redux apps",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Waba laba dub dub!\""
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/braintwyster/react-redux-tools.git"
-  },
-  "keywords": [
-    "react",
-    "redux",
-    "command",
-    "line",
-    "tools",
-    "scripts",
-    "boiler",
-    "plates",
-    "templates"
-  ],
-  "author": "Adam Yoder",
-  "license": "ISC",
-  "bin":{
-      "react-component":"./index.js"
-  },
-  "bugs": {
-    "url": "https://github.com/braintwyster/react-redux-tools/issues"
-  },
-  "homepage": "https://github.com/braintwyster/react-redux-tools#readme"
+    "name": "react-redux-tools",
+    "version": "0.0.1",
+    "description": "Tools and commands that help build react and redux apps",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Waba laba dub dub!\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/braintwyster/react-redux-tools.git"
+    },
+    "keywords": [
+        "react",
+        "redux",
+        "command",
+        "line",
+        "tools",
+        "scripts",
+        "boiler",
+        "plates",
+        "templates"
+    ],
+    "author": "Adam Yoder",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/braintwyster/react-redux-tools/issues"
+    },
+    "homepage": "https://github.com/braintwyster/react-redux-tools#readme",
+    "dependencies": {
+        "@octokit/rest": "^15.8.1",
+        "chalk": "^2.4.1",
+        "clear": "^0.1.0",
+        "clui": "^0.3.6",
+        "commander": "^2.15.1",
+        "configstore": "^3.1.2",
+        "copy-dir": "^0.3.0",
+        "figlet": "^1.2.0",
+        "fs": "0.0.1-security",
+        "inquirer": "^6.0.0",
+        "lodash": "^4.17.10",
+        "minimist": "^1.2.0",
+        "simple-git": "^1.95.1",
+        "touch": "^3.1.0"
+    },
+    "bin": {
+        "rrt": "./index.js"
+    }
 }
