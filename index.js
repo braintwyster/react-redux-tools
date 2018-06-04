@@ -5,8 +5,8 @@ const chalk = require('chalk')
 const touch = require('touch')
 const fs = require('fs')
 
-const init = require('./init')
-const component = require('./component')
+const init = require('./commands/init')
+const component = require('./commands/component')
 
 program
     .version('0.1.2', '-v, --version')

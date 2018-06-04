@@ -4,7 +4,7 @@ const path = require('path');
 const copydir = require('copy-dir')
 const root = path.resolve(__dirname);
 
-const componentTemplate = require('./lib/templates/component')
+const componentTemplate = require('../lib/templates/component')
 
 
 ////
